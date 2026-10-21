@@ -134,6 +134,28 @@ python tools/check_kb.py
 ./gradlew :cli:run --args="memory forget --dir .junshi --id <recordId>"
 ```
 
+## 桌面版（Windows）
+
+```bash
+./gradlew :desktop:fatJar
+jpackage --type app-image --name JevJunshi   --input desktop/build/libs --main-jar jev-junshi-desktop.jar   --main-class io.junshi.desktop.MainKt --dest D:\jev-junshi
+```
+
+产物是免安装目录 `D:\jev-junshi\JevJunshi\JevJunshi.exe`（内置 JRE，约 154 MB）。
+粘聊天记录、选阶段与目标、点「生成简报」，全程离线；Ctrl+Enter 也可生成。
+知识索引打进 jar，不依赖仓库目录。
+
+## 手机版（Android）
+
+```bash
+ANDROID_HOME=$LOCALAPPDATA/Android/Sdk ./gradlew :android-app:assembleDebug
+adb install -r android-app/build/outputs/apk/debug/android-app-debug.apk
+```
+
+- 包名 `io.junshi.app`，minSdk 26，无任何权限（不联网、不读通知、不读聊天软件数据）。
+- 索引同时打进 assets 与 JVM resources，首次启动从 assets 解到私有目录。
+- APK 约 1.5 MB，全部判断在本地完成，飞行模式可用。
+
 ## 接到 Jarvis 里
 
 见 [`docs/INTEGRATION-JARVIS.md`](docs/INTEGRATION-JARVIS.md)：三步，不动「绝不自动发送」的契约。

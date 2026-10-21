@@ -3,12 +3,18 @@ import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 plugins {
     kotlin("jvm") version "2.0.21" apply false
     kotlin("plugin.serialization") version "2.0.21" apply false
+    id("com.android.application") version "8.7.3" apply false
+    kotlin("android") version "2.0.21" apply false
 }
 
 subprojects {
+    // The Android module has its own toolchain and plugin set.
+    if (path == ":android-app") return@subprojects
+
     apply(plugin = "org.jetbrains.kotlin.jvm")
 
     repositories {
+        google()
         mavenCentral()
     }
 
