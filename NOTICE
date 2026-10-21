@@ -1,0 +1,28 @@
+jev-junshi · 军师内核
+Copyright (c) 2026 jev-junshi contributors
+
+本仓库把两个 MIT 项目结合成一个新的工程：
+This repository fuses two MIT-licensed projects into a new one.
+
+1) 军师与知识库 / strategist + corpus
+   shengjidaguai-china/goutoujunshi
+   Copyright (c) 2026 powerycy
+   https://github.com/shengjidaguai-china/goutoujunshi
+   - corpus/ 下的 Markdown 原文逐字导入，未改写。
+   - 五步分析顺序、证据分级、安全边界、记忆字段与限额来自该项目。
+   - corpus/ 与 kb/ 的再分发同样受 MIT 约束，保留本 NOTICE。
+
+2) 客户端 / client
+   jev-chat/jev-chat-jarvis
+   Copyright (c) 2026 Finderchangchang and the jev-chat contributors
+   https://github.com/jev-chat/jev-chat-jarvis
+   - 场景/关系阶段/行为编号（R01..R23）、"用户自己按发送"的产品契约、
+     知识库预算与悬浮窗交互来自该项目。
+   - adapter-jarvis/ 只做适配，不复制客户端源码。
+
+命名：
+本仓库不是上述任一项目的官方版本，也不得用 "Jev"、"jev-chat"、
+"狗头军师" 的名义暗示原作者出品或背书。二次分发时请注明：
+"基于 goutoujunshi 与 Jev 聊天助手整合开发"。
+
+上游许可证全文：LICENSES/goutoujunshi-MIT.txt、LICENSES/jev-chat-jarvis-MIT.txt

@@ -1,0 +1,678 @@
+{
+  "schema": 1,
+  "source": "goutoujunshi@6db7354",
+  "upstreams": [
+    {
+      "repo": "shengjidaguai-china/goutoujunshi",
+      "role": "corpus + strategist chain",
+      "license": "MIT"
+    },
+    {
+      "repo": "jev-chat/jev-chat-jarvis",
+      "role": "capture / judge / draft client",
+      "license": "MIT"
+    }
+  ],
+  "maxChunkChars": 2400,
+  "docs": [
+    {
+      "id": "k01",
+      "path": "corpus/knowledge/01-证据分级与内容边界.md",
+      "title": "证据分级与内容边界",
+      "layer": "knowledge",
+      "strength": "policy",
+      "tags": [
+        "证据分级",
+        "来源",
+        "研究",
+        "边界",
+        "推理错误"
+      ],
+      "chunks": 6,
+      "chars": 1929
+    },
+    {
+      "id": "k02",
+      "path": "corpus/knowledge/02-亲密关系心理学总论.md",
+      "title": "亲密关系心理学总论",
+      "layer": "knowledge",
+      "strength": "strong",
+      "tags": [
+        "亲密关系",
+        "承诺",
+        "回应性",
+        "社会交换",
+        "总论"
+      ],
+      "chunks": 10,
+      "chars": 2380
+    },
+    {
+      "id": "k03",
+      "path": "corpus/knowledge/03-依恋理论与情绪调节.md",
+      "title": "依恋理论与情绪调节",
+      "layer": "knowledge",
+      "strength": "framework",
+      "tags": [
+        "依恋",
+        "焦虑",
+        "回避",
+        "情绪调节",
+        "互动循环"
+      ],
+      "chunks": 7,
+      "chars": 1661
+    },
+    {
+      "id": "k04",
+      "path": "corpus/knowledge/04-MBTI人格与匹配.md",
+      "title": "MBTI、人格与伴侣匹配",
+      "layer": "knowledge",
+      "strength": "popular",
+      "tags": [
+        "MBTI",
+        "人格",
+        "匹配",
+        "标签"
+      ],
+      "chunks": 7,
+      "chars": 1806
+    },
+    {
+      "id": "k05",
+      "path": "corpus/knowledge/05-PUA操控与伦理替代.md",
+      "title": "PUA、操控知识与伦理替代",
+      "layer": "knowledge",
+      "strength": "framework",
+      "tags": [
+        "PUA",
+        "操控",
+        "服从测试",
+        "煤气灯",
+        "贬低",
+        "伦理"
+      ],
+      "chunks": 7,
+      "chars": 2327
+    },
+    {
+      "id": "k06",
+      "path": "corpus/knowledge/06-吸引约会与关系启动.md",
+      "title": "吸引、约会与关系启动",
+      "layer": "knowledge",
+      "strength": "strong",
+      "tags": [
+        "吸引",
+        "约会",
+        "关系启动",
+        "暧昧",
+        "追求"
+      ],
+      "chunks": 7,
+      "chars": 2099
+    },
+    {
+      "id": "k07",
+      "path": "corpus/knowledge/07-沟通冲突与修复.md",
+      "title": "沟通、冲突与修复",
+      "layer": "knowledge",
+      "strength": "strong",
+      "tags": [
+        "沟通",
+        "冲突",
+        "修复",
+        "道歉",
+        "冷战"
+      ],
+      "chunks": 8,
+      "chars": 1894
+    },
+    {
+      "id": "k08",
+      "path": "corpus/knowledge/08-同意边界性与亲密.md",
+      "title": "同意、边界、性与亲密",
+      "layer": "knowledge",
+      "strength": "strong",
+      "tags": [
+        "同意",
+        "边界",
+        "性",
+        "亲密",
+        "安全"
+      ],
+      "chunks": 8,
+      "chars": 1770
+    },
+    {
+      "id": "k09",
+      "path": "corpus/knowledge/09-在线约会与数字关系.md",
+      "title": "在线约会与数字关系",
+      "layer": "knowledge",
+      "strength": "framework",
+      "tags": [
+        "网聊",
+        "在线约会",
+        "截图",
+        "隐私",
+        "诈骗"
+      ],
+      "chunks": 10,
+      "chars": 2762
+    },
+    {
+      "id": "k10",
+      "path": "corpus/knowledge/10-恋爱哲学.md",
+      "title": "恋爱哲学",
+      "layer": "knowledge",
+      "strength": "framework",
+      "tags": [
+        "哲学",
+        "爱情观",
+        "价值"
+      ],
+      "chunks": 6,
+      "chars": 1920
+    },
+    {
+      "id": "k11",
+      "path": "corpus/knowledge/11-婚姻家庭与生命周期.md",
+      "title": "婚姻、家庭与关系生命周期",
+      "layer": "knowledge",
+      "strength": "strong",
+      "tags": [
+        "婚姻",
+        "家庭",
+        "生命周期",
+        "结婚"
+      ],
+      "chunks": 7,
+      "chars": 1971
+    },
+    {
+      "id": "k12",
+      "path": "corpus/knowledge/12-金钱家务育儿与双方家庭.md",
+      "title": "金钱、家务、育儿与双方家庭",
+      "layer": "knowledge",
+      "strength": "strong",
+      "tags": [
+        "金钱",
+        "家务",
+        "育儿",
+        "双方家庭",
+        "彩礼"
+      ],
+      "chunks": 9,
+      "chars": 1991
+    },
+    {
+      "id": "k13",
+      "path": "corpus/knowledge/13-现代婚姻变迁史.md",
+      "title": "现代婚姻变迁史",
+      "layer": "knowledge",
+      "strength": "framework",
+      "tags": [
+        "婚姻史",
+        "变迁",
+        "社会"
+      ],
+      "chunks": 6,
+      "chars": 2197
+    },
+    {
+      "id": "k14",
+      "path": "corpus/knowledge/14-社会发展与家庭变迁.md",
+      "title": "社会发展与家庭变迁",
+      "layer": "knowledge",
+      "strength": "framework",
+      "tags": [
+        "社会发展",
+        "家庭变迁",
+        "人口"
+      ],
+      "chunks": 6,
+      "chars": 2284
+    },
+    {
+      "id": "k15",
+      "path": "corpus/knowledge/15-分手背叛与关系修复.md",
+      "title": "分手、背叛与关系修复",
+      "layer": "knowledge",
+      "strength": "strong",
+      "tags": [
+        "分手",
+        "背叛",
+        "出轨",
+        "复合",
+        "修复"
+      ],
+      "chunks": 8,
+      "chars": 1926
+    },
+    {
+      "id": "k16",
+      "path": "corpus/knowledge/16-多元关系与反刻板印象.md",
+      "title": "多元关系与反刻板印象",
+      "layer": "knowledge",
+      "strength": "framework",
+      "tags": [
+        "多元关系",
+        "反刻板印象",
+        "性少数",
+        "包容"
+      ],
+      "chunks": 9,
+      "chars": 1951
+    },
+    {
+      "id": "k17",
+      "path": "corpus/knowledge/17-中国法律安全与危机转介.md",
+      "title": "中国法律、安全与危机转介",
+      "layer": "knowledge",
+      "strength": "strong",
+      "tags": [
+        "法律",
+        "家暴",
+        "跟踪",
+        "安全",
+        "危机",
+        "报警"
+      ],
+      "chunks": 9,
+      "chars": 2175
+    },
+    {
+      "id": "k18",
+      "path": "corpus/knowledge/18-实用练习与对话卡.md",
+      "title": "实用练习与对话卡",
+      "layer": "knowledge",
+      "strength": "experience",
+      "tags": [
+        "练习",
+        "对话卡",
+        "训练"
+      ],
+      "chunks": 13,
+      "chars": 1766
+    },
+    {
+      "id": "k19",
+      "path": "corpus/knowledge/19-核心书单与论文索引.md",
+      "title": "核心书单与论文索引",
+      "layer": "knowledge",
+      "strength": "policy",
+      "tags": [
+        "书单",
+        "论文",
+        "索引",
+        "来源"
+      ],
+      "chunks": 9,
+      "chars": 5033
+    },
+    {
+      "id": "k20",
+      "path": "corpus/knowledge/20-经典社交体系的机制、证据与风险边界.md",
+      "title": "经典社交体系的机制、证据与风险边界",
+      "layer": "knowledge",
+      "strength": "framework",
+      "tags": [
+        "冷读",
+        "自然流",
+        "Blueprint",
+        "Mystery",
+        "推拉",
+        "社交体系"
+      ],
+      "chunks": 9,
+      "chars": 4215
+    },
+    {
+      "id": "p00",
+      "path": "corpus/practical/00-导读与使用分级.md",
+      "title": "实用沟通与网络社交策略：导读与使用分级",
+      "layer": "practical",
+      "strength": "policy",
+      "tags": [
+        "导读",
+        "使用分级",
+        "脚手架"
+      ],
+      "chunks": 4,
+      "chars": 2080
+    },
+    {
+      "id": "p01",
+      "path": "corpus/practical/ChatLab聊天记录分析适配.md",
+      "title": "ChatLab聊天记录分析适配",
+      "layer": "practical",
+      "strength": "experience",
+      "tags": [
+        "ChatLab",
+        "聊天记录",
+        "趋势",
+        "K线",
+        "导入"
+      ],
+      "chunks": 6,
+      "chars": 2108
+    },
+    {
+      "id": "p02",
+      "path": "corpus/practical/万能吵架技巧：理性冲突处理指南.md",
+      "title": "万能吵架技巧：理性冲突处理指南",
+      "layer": "practical",
+      "strength": "experience",
+      "tags": [
+        "吵架",
+        "冲突",
+        "理性",
+        "边界"
+      ],
+      "chunks": 3,
+      "chars": 2454
+    },
+    {
+      "id": "p03",
+      "path": "corpus/practical/万能夸人的话术技巧：真诚认可的实用指南.md",
+      "title": "万能夸人的话术技巧：真诚认可的实用指南",
+      "layer": "practical",
+      "strength": "experience",
+      "tags": [
+        "夸人",
+        "赞美",
+        "认可"
+      ],
+      "chunks": 3,
+      "chars": 4128
+    },
+    {
+      "id": "p04",
+      "path": "corpus/practical/为他人提供情绪价值：温暖且有效的回应指南.md",
+      "title": "为他人提供情绪价值：温暖且有效的回应指南",
+      "layer": "practical",
+      "strength": "experience",
+      "tags": [
+        "情绪价值",
+        "共情",
+        "回应",
+        "安慰"
+      ],
+      "chunks": 3,
+      "chars": 4379
+    },
+    {
+      "id": "p05",
+      "path": "corpus/practical/主动表达、第一次见面与自然接触.md",
+      "title": "主动表达、第一次见面与自然接触",
+      "layer": "practical",
+      "strength": "experience",
+      "tags": [
+        "主动",
+        "表白",
+        "第一次见面",
+        "邀约",
+        "接触"
+      ],
+      "chunks": 6,
+      "chars": 2365
+    },
+    {
+      "id": "p06",
+      "path": "corpus/practical/公开表达案例的伦理转译.md",
+      "title": "公开表达案例的伦理转译",
+      "layer": "practical",
+      "strength": "policy",
+      "tags": [
+        "公开表达",
+        "伦理",
+        "转译"
+      ],
+      "chunks": 4,
+      "chars": 960
+    },
+    {
+      "id": "p07",
+      "path": "corpus/practical/关系投入失衡：互惠判断、降级投入与退出决策.md",
+      "title": "关系投入校准：先推进与修复，必要时再退出",
+      "layer": "practical",
+      "strength": "experience",
+      "tags": [
+        "投入失衡",
+        "互惠",
+        "降级",
+        "退出",
+        "冷淡",
+        "备胎",
+        "已读不回",
+        "不回消息",
+        "忽冷忽热"
+      ],
+      "chunks": 7,
+      "chars": 2560
+    },
+    {
+      "id": "p08",
+      "path": "corpus/practical/化解尴尬：轻松救场的实用指南.md",
+      "title": "化解尴尬：轻松救场的实用指南",
+      "layer": "practical",
+      "strength": "experience",
+      "tags": [
+        "尴尬",
+        "救场",
+        "接话"
+      ],
+      "chunks": 3,
+      "chars": 3814
+    },
+    {
+      "id": "p09",
+      "path": "corpus/practical/场景感、松弛感与社交校准：从接话到关系推进.md",
+      "title": "场景感、松弛感与社交校准：从接话到关系推进",
+      "layer": "practical",
+      "strength": "experience",
+      "tags": [
+        "场景感",
+        "松弛感",
+        "调情",
+        "暧昧",
+        "接话"
+      ],
+      "chunks": 4,
+      "chars": 2741
+    },
+    {
+      "id": "p10",
+      "path": "corpus/practical/实战话术编排器：从一句回复到后续分支.md",
+      "title": "实战话术编排器：从一句回复到后续分支",
+      "layer": "practical",
+      "strength": "experience",
+      "tags": [
+        "话术",
+        "一句话回复",
+        "开场",
+        "分支",
+        "怎么回"
+      ],
+      "chunks": 5,
+      "chars": 3597
+    },
+    {
+      "id": "p11",
+      "path": "corpus/practical/巧妙接话技巧：让沟通更流畅的实用指南.md",
+      "title": "巧妙接话技巧：让沟通更流畅的实用指南",
+      "layer": "practical",
+      "strength": "experience",
+      "tags": [
+        "接话",
+        "聊天",
+        "流畅"
+      ],
+      "chunks": 3,
+      "chars": 3932
+    },
+    {
+      "id": "p12",
+      "path": "corpus/practical/废话文学回复指南：轻松应对各类场景.md",
+      "title": "废话文学回复指南：轻松应对各类场景",
+      "layer": "practical",
+      "strength": "experience",
+      "tags": [
+        "废话文学",
+        "敷衍",
+        "低投入"
+      ],
+      "chunks": 3,
+      "chars": 2796
+    },
+    {
+      "id": "p13",
+      "path": "corpus/practical/托人办事的高效话术指南.md",
+      "title": "托人办事的高效话术指南",
+      "layer": "practical",
+      "strength": "experience",
+      "tags": [
+        "托人办事",
+        "请求",
+        "帮忙"
+      ],
+      "chunks": 3,
+      "chars": 2760
+    },
+    {
+      "id": "p14",
+      "path": "corpus/practical/提升表达逻辑性：从混乱到清晰的实用指南.md",
+      "title": "提升表达逻辑性：从混乱到清晰的实用指南",
+      "layer": "practical",
+      "strength": "experience",
+      "tags": [
+        "表达",
+        "逻辑",
+        "结构"
+      ],
+      "chunks": 3,
+      "chars": 4804
+    },
+    {
+      "id": "p15",
+      "path": "corpus/practical/提高气场：从内到外的力量感塑造指南.md",
+      "title": "提高气场：从内到外的力量感塑造指南",
+      "layer": "practical",
+      "strength": "experience",
+      "tags": [
+        "气场",
+        "自信",
+        "力量感"
+      ],
+      "chunks": 3,
+      "chars": 3558
+    },
+    {
+      "id": "p16",
+      "path": "corpus/practical/有效拓展人脉：从建立到维护的实用指南.md",
+      "title": "有效拓展人脉：从建立到维护的实用指南",
+      "layer": "practical",
+      "strength": "experience",
+      "tags": [
+        "人脉",
+        "社交",
+        "维护"
+      ],
+      "chunks": 3,
+      "chars": 4036
+    },
+    {
+      "id": "p17",
+      "path": "corpus/practical/聊天化被动为主动：引导互动的实用指南.md",
+      "title": "聊天化被动为主动：引导互动的实用指南",
+      "layer": "practical",
+      "strength": "experience",
+      "tags": [
+        "主动",
+        "引导互动",
+        "提问"
+      ],
+      "chunks": 3,
+      "chars": 4523
+    },
+    {
+      "id": "p18",
+      "path": "corpus/practical/自然流、内在状态与结构化互动：伦理能力转译.md",
+      "title": "自然流、内在状态与结构化互动：伦理能力转译",
+      "layer": "practical",
+      "strength": "experience",
+      "tags": [
+        "自然流",
+        "内在状态",
+        "结构化互动",
+        "冷读"
+      ],
+      "chunks": 10,
+      "chars": 2701
+    },
+    {
+      "id": "p19",
+      "path": "corpus/practical/获得领导青睐：从价值匹配到信任建立的实用指南.md",
+      "title": "获得领导青睐：从价值匹配到信任建立的实用指南",
+      "layer": "practical",
+      "strength": "experience",
+      "tags": [
+        "领导",
+        "职场",
+        "信任"
+      ],
+      "chunks": 3,
+      "chars": 3448
+    },
+    {
+      "id": "p20",
+      "path": "corpus/practical/被孤立如何破局：从自我调适到建立连接的实用指南.md",
+      "title": "被孤立如何破局：从自我调适到建立连接的实用指南",
+      "layer": "practical",
+      "strength": "experience",
+      "tags": [
+        "孤立",
+        "连接",
+        "调适"
+      ],
+      "chunks": 3,
+      "chars": 3485
+    },
+    {
+      "id": "p21",
+      "path": "corpus/practical/长期记忆与关系档案.md",
+      "title": "长期记忆与关系档案",
+      "layer": "practical",
+      "strength": "policy",
+      "tags": [
+        "长期记忆",
+        "档案",
+        "同意",
+        "撤销",
+        "隐私"
+      ],
+      "chunks": 7,
+      "chars": 2819
+    },
+    {
+      "id": "p22",
+      "path": "corpus/practical/高情商拒绝他人：体面护边界的实用指南.md",
+      "title": "高情商拒绝他人：体面护边界的实用指南",
+      "layer": "practical",
+      "strength": "experience",
+      "tags": [
+        "拒绝",
+        "边界",
+        "体面"
+      ],
+      "chunks": 3,
+      "chars": 4709
+    }
+  ],
+  "totals": {
+    "docs": 43,
+    "chunks": 256,
+    "chars": 120814,
+    "knowledgeDocs": 20,
+    "practicalDocs": 23
+  }
+}
